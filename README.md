@@ -1,12 +1,17 @@
 # Pipeline ETL de Análise de Desempenho Escolar com Apache Airflow
 ## Descrição do Projeto
 
-#### Este projeto implementa um pipeline ETL (Extract, Transform, Load) para processamento e análise de dados acadêmicos de alunos utilizando Python, Pandas e Apache Airflow.
+#### Este projeto implementa um pipeline ETL (Extract, Transform, Load) para processamento e análise de dados acadêmicos de alunos utilizando Python, Pandas e Apache Airflow (TaskFlow API).
 
 #### O pipeline realiza a leitura de um dataset contendo informações de alunos, executa processos de limpeza e transformação de dados e gera estatísticas e visualizações sobre o desempenho escolar.
 
 #### O objetivo é demonstrar a construção de um fluxo de dados automatizado, organizado em tarefas orquestradas por Airflow.
 
+## ⚙️ Execução da DAG
+
+![Execution](https://img.shields.io/badge/Execution-Manual%20Trigger-orange)
+
+O pipeline foi orquestrado com **Apache Airflow utilizando TaskFlow API**, com execução **manual (`schedule=None`)**, permitindo disparo sob demanda via **Airflow UI ou CLI**.
 ## Tecnologias Utilizadas
 
 - Python
